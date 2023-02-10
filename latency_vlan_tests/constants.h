@@ -40,9 +40,9 @@ SOFTWARE.
 #define JAMMER_IP_ADDR_VLAN5 "10.0.5.103"
 #define JAMMER_PORT 15811
 
-#define ETH_INTERFACE_I225 "enp88s0\0"
-#define ETH_INTERFACE_I225_VLAN3 "enp88s0.3\0"
-#define ETH_INTERFACE_I225_VLAN5 "enp88s0.5\0"
+#define ETH_INTERFACE_I225 "enp87s0\0"
+#define ETH_INTERFACE_I225_VLAN3 "enp87s0.3\0"
+#define ETH_INTERFACE_I225_VLAN5 "enp87s0.5\0"
 
 //to swap VLANs, change the numbers in the next few lines to 3 or 5 or whatever you have created. This helps bind to the correct IP for a VLAN when configuring the socket
 #define VLAN_ID 5
